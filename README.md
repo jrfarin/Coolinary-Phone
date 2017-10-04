@@ -1,10 +1,10 @@
-# A Blank PhoneGap App
+# Coolinary Master Classes APP
 
 ## Usage
 
 ### PhoneGap CLI
 
-    $ phonegap create my-app --template blank
+    $ phonegap create coolinaryApp
 
 ### Desktop
 
