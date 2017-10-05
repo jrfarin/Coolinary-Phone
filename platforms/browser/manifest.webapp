@@ -1,10 +1,10 @@
 {
-  "name": "Coolinary App",
-  "description": "Coolinary Master Classes App",
+  "name": "My App",
+  "description": "Description of your app",
   "launch_path": "/index.html",
   "icons": {
     "128": "/img/logo.png"
   },
-  "default_locale": "es",
+  "default_locale": "en",
   "type": "privileged"
 }
