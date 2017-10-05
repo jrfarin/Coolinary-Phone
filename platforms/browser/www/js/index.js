@@ -47,3 +47,12 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+$(function(){
+    $('.plusIng').click(function(){
+        $(this).toggleClass('minusIng')
+    })
+    $('.plusElb').click(function(){
+        $(this).toggleClass('minusElb')
+    })
+})

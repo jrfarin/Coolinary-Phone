@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
     html {
         background: #FAF7F2;
         background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
@@ -255,12 +257,9 @@
     }
 
     footer>nav div.social>a {
-        padding-left: 12%;
+        padding-left: 5%;
     }
 
-    footer div.social {
-        margin-left: 60%;
-    }
     blockquote {
         text-align: center;
         font-family: lato;
@@ -418,7 +417,7 @@
             border: none;
         }
         footer div.social {
-            margin-left: 15%;
+            margin-left: 0;
         }
     }
 
