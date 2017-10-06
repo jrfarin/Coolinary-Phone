@@ -324,9 +324,6 @@ font-face {
         width: 90%;
         margin: 0 auto 2%;
     }
-    /*.sep-rg {
-        border-right: 1px solid #ffeab1;
-    }*/
     table.sep-rg th {
         border-bottom: 1px solid #ffeab1;
     }
@@ -336,7 +333,8 @@ font-face {
         padding-left: 24px;
         padding-right: 20px;
         margin: 0;
-        height: 100vh;
+        /*height: 100vh;*/
+        margin-bottom: 40px;
     }
 
     ul.custom>li.none-list {
