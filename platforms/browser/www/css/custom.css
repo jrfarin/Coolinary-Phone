@@ -1,4 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
+font-face {
+    font-family: 'cinzelregular';
+    src: url('fonts/cinzel-regular-webfont.woff2') format('woff2'),
+         url('fonts/cinzel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoitalic';
+    src: url('lato-italic-webfont.woff2') format('woff2'),
+         url('lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lato';
+    src: url('lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
     html {
         background: #FAF7F2;
@@ -34,9 +55,9 @@
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin: 15px;
+        margin: 5px 15px 15px;
         border-bottom: 1px solid #d1d1d1;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
     }
     .bg-home {
         background-image: url('../img/Bg-Home.jpg');
@@ -80,6 +101,11 @@
         padding-left: 3.5rem;
     }
 
+    .navbar-inverse .navbar-nav .nav-link.active {
+        font-weight: bold;
+        opacity: 1;
+    }
+
     .navbar-inverse .navbar-toggler-icon {
         background-image: url(../img/icons/menu.svg);
     }
@@ -89,23 +115,30 @@
         color: #fff;
         font-family: 'Cinzel', serif;
     }
-
-    .dropdown-menu {
-        top: 105%;
-        left: 12%;
-        border-color: #ededed;
-    }
-
     .dropdown-item {
         text-transform: uppercase;
         font-weight: 300;
+        border-bottom: 1px solid #b88f23;
+        padding: 10px 15px;
+        width: 88%;
+        margin: 0 20px;
+    }
+    .dropdown-item:last-child {
+        border: none;
+    }
+    .dropdown-item.disabled, .dropdown-item:disabled {
+        color: #636c72;
+        cursor: not-allowed;
+        background-color: transparent;
+        opacity: .4;
     }
 
     .dropdown-item.active, .dropdown-item:active {
-        color: #fff;
+        color: #b88f23;
         text-decoration: none;
-        background-color: #ff1744;
-    }
+        background-color: #fff;
+        font-weight: bold;
+        }
 
     .row {
         margin-right: -10px;
