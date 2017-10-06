@@ -64,3 +64,11 @@ $(function(){
         $('.alert').toggleClass('show');
     })
 })
+
+// Alert Section Talleres disabled
+$(function(){
+    $('.disabled-section').click(function(e){
+        e.preventDefault();
+        $('.alert').toggleClass('show');
+    })
+})

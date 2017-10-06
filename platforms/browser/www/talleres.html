@@ -23,11 +23,17 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="./" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
+                        <a class="nav-link dropdown-toggle" href="./talleres.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item"  class="" href="octubre.html">Octubre</a>
-                            <a class="dropdown-item disabled"  href="#">Noviembre</a>
-                            <a class="dropdown-item disabled"  href="#">Diciembre</a>
+                            <a id="octubre" class="dropdown-item active"  class="" href="./octubre.html">Octubre</a>
+                            <a id="noviembre" class="dropdown-item disabled"  href="#">Noviembre</a>
+                            <a id="diciembre" class="dropdown-item disabled"  href="#">Diciembre</a>
+                        </div>
+                        <div class="alert alert-info alert-dismissible hide" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <strong>¡Aviso!</strong> Estas recetas todavía no están disponibles.
                         </div>
                     </li>
                     <li class="nav-item">
@@ -45,41 +51,57 @@
             </div>
         </div>
         <div class="row">
-            <a href="octubre.html">
-            <section>
-                <div class="col-4">
-                    <img src="./img/octubre/thumbnail.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-7 offset_top_20">
-                    <h5>Colores y sabores de Otoño. Capítulo I</h5>
-                </div>
-                <div class="col offset_top_30">
-                    <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
-                </div>
-            </section>
+            <a href="./octubre.html">
+                <section>
+                    <div class="col-4">
+                        <img src="./img/octubre/thumbnail.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-7 offset_top_20">
+                        <h5>Colores y sabores de Otoño. Capítulo I</h5>
+                    </div>
+                    <div class="col offset_top_30">
+                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
+                    </div>
+                </section>
             </a>
-            <section>
-                <div class="col-4">
-                    <img src="./img/noviembre/thumbnail.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-7 offset_top_20">
-                    <h5>Colores y sabores de Otoño. Capítulo II</h5>
-                </div>
-                <div class="col offset_top_30">
-                    <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
-                </div>
-            </section>
-            <section>
-                <div class="col-4">
-                    <img src="./img/diciembre/thumbnail.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-7 offset_top_30">
-                    <h5>Fiestas con un toque de modernidad.</h5>
-                </div>
-                <div class="col offset_top_20">
-                    <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
-                </div>
-            </section>
+            <a href="#">
+                <section class="disabled-section">
+                    <div class="col-4">
+                        <img src="./img/noviembre/thumbnail.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-7 offset_top_20">
+                        <h5>Colores y sabores de Otoño. Capítulo II</h5>
+                    </div>
+                    <div class="col offset_top_30">
+                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="alert alert-section alert-info alert-dismissible hide" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <strong>¡Aviso!</strong> Estas recetas todavía no están disponibles.
+                    </div>
+                </section>
+            </a>
+            <a href="#">
+                <section class="disabled-section">
+                    <div class="col-4">
+                        <img src="./img/diciembre/thumbnail.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-7 offset_top_30">
+                        <h5>Fiestas con un toque de modernidad.</h5>
+                    </div>
+                    <div class="col offset_top_20">
+                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="alert alert-section alert-info alert-dismissible hide" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <strong>¡Aviso!</strong> Estas recetas todavía no están disponibles.
+                    </div>
+                </section>
+            </a>
         </div>
     </main>
 

@@ -10,19 +10,99 @@
     <link href="./css/custom.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-inverse bg-custom navbar-toggleable-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleCenteredNav" aria-controls="navbarsExampleCenteredNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExampleCenteredNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <img src="./img/icons/logo.svg" alt="">
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./talleres.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a id="octubre" class="dropdown-item"  class="" href="./octubre.html">Octubre</a>
+                            <a id="noviembre" class="dropdown-item disabled"  href="#">Noviembre</a>
+                            <a id="diciembre" class="dropdown-item disabled"  href="#">Diciembre</a>
+                        </div>
+                        <div class="alert alert-info alert-dismissible hide" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <strong>¡Aviso!</strong> Estas recetas todavía no están disponibles.
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main class="container-fluid">
         <div class="row">
             <div class="col">
-                <div class="bg-home">
-                    <img src="./img/icons/logoBlack.png" class="img-fluid" alt="Venca &amp; Coolinary Master Classes">
-                    <a href="./talleres.html" class="btn btn-custom text-uppercase">Enter</a>
+                <h4 class="ae-u-bolder au-mb-3 conatct__title">¿Hablamos?</h4>
+                <p class="au-mb-4 contact__desc">Si tienes alguna duda sobre el curso rellena el formulario inferior.
+                    <br> Intentaremos resolver tus dudas.
+                </p>
+
+                <div class="text-center">
+                    <p>
+                        Coolinary Market<br>Rambla del Garraf, 90<br>08812 Sant Pere de Ribes
+                    </p>
+                    <p>
+                        <span class="contact__phone">
+                            <span class="">Teléfono  </span> 652 396 666
+                        </span>
+                        <br>
+                        <span class="contact__email au-block au-truncate">
+                            <span class="rk-light-color">Email &nbsp;&nbsp; </span>
+                            <a href="#0">coolinary@webflix.es</a>
+                        </span>
+                    </p>
                 </div>
+            </div>
+            <div class="col">
+                <div class="ae-grid__item item-lg-6">
+                    <div id="map-container">
+                        <div id="map"></div>
+                    </div>
+            </div>
             </div>
         </div>
     </main>
+    <footer class="footer-nav">
+        <nav class="navbar navbar-expand-lg bg-custom">
+            <div class="row">
+                <div class="col social">
+                    <a class="navbar-brand" href="#">
+                        JRFarin &copy;2017
+                    </a>
+                    <a href="./">
+                        <img src="./img/icons/facebook.svg" alt="facebook" class="img-fluid">
+                    </a>
+                    <a href="./">
+                        <img src="./img/icons/twitter.svg" alt="twitter" class="img-fluid">
+                    </a>
+                    <a href="./">
+                        <img src="./img/icons/instagram.svg" alt="instagram" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </footer>
 
-    <script src="js/jquery-3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPMxLTPopMC58N3pHwmk9NkxGq84sNRfg"></script>
+    <script src="./js/map.js"></script>
+
+    <script src="./js/jquery-3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
