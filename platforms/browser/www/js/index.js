@@ -48,11 +48,19 @@ var app = {
     }
 };
 
+// icons Minus/plus in Accordion
 $(function(){
     $('.plusIng').click(function(){
         $(this).toggleClass('minusIng')
     })
     $('.plusElb').click(function(){
         $(this).toggleClass('minusElb')
+    })
+})
+
+// Alert Links Menu disabled
+$(function(){
+    $('.disabled').click(function(){
+        $('.alert').toggleClass('show');
     })
 })
