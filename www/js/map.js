@@ -10,7 +10,7 @@
       // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
       var mapOptions = {
           // How zoomed in you want the map to start at (always required)
-          zoom: 15,
+          zoom: 13,
 
           disableDefaultUI: true,
           disableDoubleClickZoom: true,
@@ -52,7 +52,7 @@
   }
 
   function newLocation(level) {
-     if(map.getZoom() > 15) { map.setZoom(15) } else { map.setZoom(level) }
+     if(map.getZoom() > 13) { map.setZoom(13) } else { map.setZoom(level) }
   }
 
   document.querySelector('#map-arrow').addEventListener('click', function() {
