@@ -1,6 +1,6 @@
 # Coolinary Master Classes App [![bitHound Score][bithound-img]][bithound-url]
 
-A PhoneGap Hello World template
+A PhoneGap APP
 
 ## [config.xml][config-xml]
 
