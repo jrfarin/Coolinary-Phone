@@ -37,6 +37,9 @@
                         </div>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="./resetas_base.html">Recetas Base</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="./contact.html">Contacto</a>
                     </li>
                 </ul>
@@ -192,7 +195,7 @@
                         </a>
                     </div>
                     <div class="col-xs-12 col-lg-6 card">
-                        <img src="img/octubre/dacquoise.jpg" alt="Dacquoise  de almendras, Ruso de Café, Lemon Curd y Tomillo Limón" class="img-fluid" />
+                        <img src="img/octubre/russe.jpg" alt="Dacquoise  de almendras, Ruso de Café, Lemon Curd y Tomillo Limón" class="img-fluid" />
                     </div>
                 </div>
                 <div class="card-shadow"></div>
@@ -200,20 +203,17 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="footer-nav">
         <nav class="navbar navbar-expand-lg bg-custom">
             <div class="row">
                 <div class="col social">
                     <a class="navbar-brand" href="#">
                         JRFarin &copy;2017
                     </a>
-                    <a href="./">
+                    <a id="openBrowser">
                         <img src="./img/icons/facebook.svg" alt="facebook" class="img-fluid">
                     </a>
-                    <a href="./">
-                        <img src="./img/icons/twitter.svg" alt="twitter" class="img-fluid">
-                    </a>
-                    <a href="./">
+                    <a id="openBrowser2">
                         <img src="./img/icons/instagram.svg" alt="instagram" class="img-fluid">
                     </a>
                 </div>
@@ -223,7 +223,11 @@
 
     <script src="js/jquery-3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
 
 </body>
 </html>
