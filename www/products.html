@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Coolinary Master Classes. Workshops</title>
+    <title>Coolinary Master Classes. Products</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/custom.css" rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="./talleres.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a id="octubre" class="dropdown-item active"  class="" href="./octubre.html">Octubre</a>
+                            <a id="octubre" class="dropdown-item"  class="" href="./octubre.html">Octubre</a>
                             <a id="noviembre" class="dropdown-item"  href="./noviembre.html">Noviembre</a>
                             <a id="diciembre" class="dropdown-item disabled"  href="#">Diciembre</a>
                         </div>
@@ -39,8 +39,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./resetas_base.html">Recetas Base</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./products.html">Comprar Productos</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./productos.html">Comprar Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contact.html">Contacto</a>
@@ -53,65 +53,76 @@
     <main class="container-fluid animated fadeIn">
         <div class="row">
             <div class="page-header">
-                <h1>Coolinary Master Classe's Workshops</h1>
+                <h1>Coolinary Master Classe's Tabla de Productos</h1>
             </div>
         </div>
         <div class="row">
-            <a href="./octubre.html">
-                <section>
-                    <div class="col-4">
-                        <img src="./img/octubre/thumbnail.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-7 offset_top_5">
-                        <h5>Colores y sabores de Otoño. Capítulo I</h5>
-                    </div>
-                    <div class="col offset_top_20">
-                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
-                    </div>
-                </section>
-            </a>
-            <a href="#">
-                <section class="disabled-section">
-                    <div class="col-4">
-                        <img src="./img/noviembre/thumbnail.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-7 offset_top_5">
-                        <h5>Colores y sabores de Otoño. Capítulo II</h5>
-                    </div>
-                    <div class="col offset_top_20">
-                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
-                    </div>
-                    <div class="alert alert-section alert-info alert-dismissible hide" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <strong>¡Aviso!</strong> Estas recetas todavía no están disponibles.
-                    </div>
-                </section>
-            </a>
-            <a href="#">
-                <section class="disabled-section">
-                    <div class="col-4">
-                        <img src="./img/diciembre/thumbnail.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-7 offset_top_5">
-                        <h5>Fiestas con un toque de modernidad.</h5>
-                    </div>
-                    <div class="col offset_top_20">
-                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
-                    </div>
-                    <div class="alert alert-section alert-info alert-dismissible hide" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <strong>¡Aviso!</strong> Estas recetas todavía no están disponibles.
-                    </div>
-                </section>
-            </a>
+            <section class="col-xs-12">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Enlace</th>
+                            <th scope="col" class="w32">Teléfono</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <img src="img/products/sifon.jpg" alt="Sifón espuma">
+                            </th>
+                            <td>
+                                <a href="https://www.amazon.es/gp/product/B06WLQ5DTL/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1">Sifón para Espumas</a>
+                            </td>
+                            <td>No disponible</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="img/products/lecitina.jpg" alt="Lecitina de soja">
+                            </th>
+                            <td>
+                                <a href="https://www.cocineros.info/lecitina-de-soja">Lecitina de Soja</a>
+                            </td>
+                            <td>
+                                <a href="tel:+34938624802" class="phone">938 624 802</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="img/products/cargas.jpg" alt="Cargas Sifón espuma">
+                            </th>
+                            <td>
+                                <a href="https://www.amazon.es/gp/product/B0056Y4P88/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1">Cargas para sifón</a>
+                            </td>
+                            <td>No disponible</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="img/products/magret.jpg" alt="magrets de Pato">
+                            </th>
+                            <td>
+                                <a href="https://www.muydemiguel-delicatessen.com/derivados-del-pato/197-magret.html">Magrets de Pato</a>
+                            </td>
+                            <td>
+                                <a href="tel:+34916918916" class="phone">916 918 916</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="img/products/termometro.jpg" alt="Termómetro láser">
+                            </th>
+                            <td>
+                                <a href="https://www.amazon.es/gp/product/B01FCYALZC/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1">Termómetro Láser</a>
+                            </td>
+                            <td>No disponible</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </div>
     </main>
 
-    <footer class="footer-nav">
+    <footer>
         <nav class="navbar navbar-expand-lg bg-custom">
             <div class="row">
                 <div class="col social">
