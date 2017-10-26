@@ -421,18 +421,11 @@ hr.list-li {
     left: 0;
     bottom: 0
 }
-
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both
-}
-
 .alert-section {
     height: 82px;
     position: absolute;
     width: 90%
 }
-
 .disabled-section {
     opacity: .5
 }
@@ -445,7 +438,6 @@ table.table > thead.thead-dark {
     color: #fff;
     font-family: Cinzel, sans-serif;
 }
-
 table.table td>a {
     color: #ff1744;
     font-family: Lato, sans-serif;
@@ -456,6 +448,22 @@ table.table td>a.phone {
 table.table th.w32 {
     width: 32%;
 }
+.modal ul.custom {
+    margin-bottom: 0;
+}
+.modal-header {
+    background: #ff1744;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.modal-title {
+    font-family: Cinzel, sans-serif;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.close {
+    color: #fff;
+}
 
 @keyframes fadeIn {
     from {
@@ -465,7 +473,10 @@ table.table th.w32 {
         opacity: 1
     }
 }
-
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
 .fadeIn {
     animation-name: fadeIn
 }

@@ -57,47 +57,112 @@
             </div>
         </div>
         <div class="row">
-            <a href="#">
+            <a href="#cremaInglesa" data-toggle="modal" data-target="#cremaInglesa">
                 <section>
                     <div class="col-4">
-                        <img src="./img/base/fond-volaille.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-6">
-                        <h5>Caldo de Ave</h5>
-                    </div>
-                    <div class="col-2">
-                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
-                    </div>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <div class="col-4">
-                        <img src="./img/base/crema-inglesa.jpg" class="img-fluid" alt="">
+                        <img src="./img/base/crema-inglesa.jpg" class="img-fluid" alt="Crema Inglesa">
                     </div>
                     <div class="col-6">
                         <h5>Crema Inglesa</h5>
                     </div>
                     <div class="col-2">
-                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
+                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="Icono flecha">
                     </div>
                 </section>
             </a>
             <a href="#">
                 <section>
                     <div class="col-4">
-                        <img src="./img/base/romesco.jpg" class="img-fluid" alt="">
+                        <img src="./img/base/fond-volaille.jpg" class="img-fluid" alt="Caldo de ave">
+                    </div>
+                    <div class="col-6">
+                        <h5>Caldo de Ave</h5>
+                    </div>
+                    <div class="col-2">
+                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="Icono Flecha">
+                    </div>
+                </section>
+            </a>
+            <a href="#">
+                <section>
+                    <div class="col-4">
+                        <img src="./img/base/romesco.jpg" class="img-fluid" alt="Salsa Romesco">
                     </div>
                     <div class="col-6">
                         <h5>Salsa Romesco</h5>
                     </div>
                     <div class="col-2">
-                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="">
+                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="Icono flecha">
                     </div>
                 </section>
             </a>
         </div>
+
+        <!-- Modal Fond Volaille -->
+
     </main>
+
+    <div class="modal fade" id="cremaInglesa" tabindex="-1" role="dialog" aria-labelledby="cremaInglesaLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Crema Inglesa</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="card bg-light">
+                        <div class="card-header">
+                            <h5>Ingredientes</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="sep-rg">
+                                <tr>
+                                    <td>Leche</td>
+                                    <td class="text-right">250 ml..</td>
+                                </tr>
+                                <tr>
+                                    <td>Yemas de Huevo</td>
+                                    <td class="text-right">2 un.</td>
+                                </tr>
+                                <tr>
+                                    <td>Azucar</td>
+                                    <td class="text-right">75 gr.</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <h5 class="mb-0">
+                                <a class="plusElb" data-toggle="collapse" href="#elaboracion" aria-expanded="true" aria-controls="elaboracion">Elaboración</a>
+                            </h5>
+                        </div>
+                        <div id="elaboracion" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul class="custom">
+                                    <span class="info">Espuma de Patata</span>
+                                    <hr class="list-li">
+                                    <li>Cocer las patatas (tipo Monnalisa), cubiertas con agua mineral a ras sin sal. Escurrir reservando el agua de cocción.</li>
+                                    <li>Mezclar con el resto de ingredientes, el agua de cocción, el aceite de oliva, la sal (al gusto) y la nata.</li>
+                                    <li>Triturar con thermomix la crema de patata obtenida debe ser muy fina y no tener grumos para que salga bien por el sifón.</li>
+                                    <li>Introducir en el sifón, colocar dos cargas y agitar.</li>
+                                    <li>Para el servicio mantener en Roner a 50° como máximo.</li>
+                                    <li class="none-list"></li>
+                                    <span class="info">Consejos</span>
+                                    <hr class="list-li">
+                                    <li>Procurar no superar la temperatura indicada ya que si se supera se corre el riego de que las yemas se cuezan y la crema se corte.</li>
+                                    <li>La leche se puede aromatizar al gusto (Canela, Vainilla, Cítricos, etc.).</li>
+                                    <li>Debido a la cocción simplemente pasteurizada tiene una caducidad corta. Conservación máxima 4 días.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer-nav">
         <nav class="navbar navbar-expand-lg bg-custom">
