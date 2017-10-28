@@ -33,8 +33,9 @@ a:focus, a:hover {
     opacity: .8
 }
 
-a.light-color {
-    color: #b88f23
+a.light-color, td > a {
+    color: #b88f23;
+    cursor: pointer;
 }
 
 a.light-color:focus, a.light-color:hover {
@@ -160,7 +161,10 @@ p.data {
     background-color: #fff;
     font-weight: bold
 }
-
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 .row {
     margin-right: -10px;
     margin-left: -10px
@@ -364,7 +368,10 @@ blockquote {
 }
 
 table.sep-rg th {
-    border-bottom: 1px solid #ffeab1
+    border-bottom: 1px solid #ffeab1;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 ul.custom {
