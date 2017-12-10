@@ -27,13 +27,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a id="octubre" class="dropdown-item"  class="" href="./octubre.html">Octubre</a>
                             <a id="noviembre" class="dropdown-item"  href="./noviembre.html">Noviembre</a>
-                            <a id="diciembre" class="dropdown-item disabled"  href="#">Diciembre</a>
-                        </div>
-                        <div class="alert alert-info alert-dismissible hide" role="alert">
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <strong>¡Aviso!</strong> Estas recetas todavía no están disponibles.
+                            <a id="diciembre" class="dropdown-item"  href="./diciembre.html">Diciembre</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -103,6 +97,19 @@
                     </div>
                     <div class="col-6">
                         <h5>Pasta de Crêpes</h5>
+                    </div>
+                    <div class="col-2">
+                        <img src="img/icons/chevron-right.svg" class="img-fluid" alt="Icono flecha">
+                    </div>
+                </section>
+            </a>
+            <a href="#brioche" data-toggle="modal" data-target="#brioche">
+                <section>
+                    <div class="col-4">
+                        <img src="./img/base/brioche.jpg" class="img-fluid" alt="Brioche">
+                    </div>
+                    <div class="col-6">
+                        <h5>Pasta Brioche</h5>
                     </div>
                     <div class="col-2">
                         <img src="img/icons/chevron-right.svg" class="img-fluid" alt="Icono flecha">
@@ -356,7 +363,114 @@
         </div>
     </div>
 
-    <footer class="footer-nav">
+    <!-- Brioche Modal -->
+    <div class="modal fade" id="brioche" tabindex="-1" role="dialog" aria-labelledby="briocheLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Brioche</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="card bg-light">
+                        <div class="card-header">
+                            <h5>Ingredientes</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="sep-rg">
+                                <tr>
+                                    <th class="text-uppercase">Masa Madre</th>
+                                </tr>
+                                <tr>
+                                    <td>Leche entera</td>
+                                    <td class="text-right">70 ml.</td>
+                                </tr>
+                                <tr>
+                                    <td>Levadura</td>
+                                    <td class="text-right">10 gr.</td>
+                                </tr>
+                                <tr>
+                                    <td>Azúcar</td>
+                                    <td class="text-right">10 gr.</td>
+                                </tr>
+                                <tr>
+                                    <td>Harina T55 (Fuerza)</td>
+                                    <td class="text-right">130 gr.</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-uppercase">Pasta Brioche</th>
+                                </tr>
+                                <tr>
+                                    <td>Leche entera</td>
+                                    <td>65 ml.</td>
+                                </tr>
+                                <tr>
+                                    <td>Levadura</td>
+                                    <td>15 gr.</td>
+                                </tr>
+                                <tr>
+                                    <td>Harina T55</td>
+                                    <td>290 gr.</td>
+                                </tr>
+                                <tr>
+                                    <td>Azúcar</td>
+                                    <td>60 gr.</td>
+                                </tr>
+                                <tr>
+                                    <td>Mantequilla</td>
+                                    <td>35 gr.</td>
+                                </tr>
+                                <tr>
+                                    <td>Huevo</td>
+                                    <td>1 un.</td>
+                                </tr>
+                                <tr>
+                                    <td>Zumo Naranja</td>
+                                    <td>15 gr.</td>
+                                </tr>
+                                <tr>
+                                    <td>Huevo batido para pintar</td>
+                                    <td>1 un.</td>
+                                </tr>
+                                <tr>
+                                    <td>Sal</td>
+                                    <td>2 c.c.</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <h5 class="mb-0">
+                                <a class="plusElb" data-toggle="collapse" href="#elaboracionCrepe" aria-expanded="true" aria-controls="elaboracion">Elaboración</a>
+                            </h5>
+                        </div>
+                        <div id="elaboracionCrepe" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul class="custom">
+                                    <span class="info">Masa Madre</span>
+                                    <hr class="list-li">
+                                    <li>Templar la leche y deshacer la levadura en ella. Mezclar con el resto de los ingredientes y formar una bola.</li>
+                                    <li>Poner un bol con agua templada y meter la bola de la masa de arranque en él.</li>
+                                    <li>Cuando flote, en aproximadamente 10 minutos, estará lista para utilizar con la masa principal.</li>
+                                    <span class="info">Masa Madre</span>
+                                    <hr class="list-li">
+                                    <li>Poner todos los ingredientes en la amasadora. Amasar lentamente durante 5' aproximadamente.</li>
+                                    <li>Pintar un bol ligeramente con aceite. Verter la masa y dejar reposar tapado hasta una doble su volumen.</li>
+                                    <li>Romper la masa. Dar forma. Dejar fermentar por segunda vez.		</li>
+                                    <li>Una vez fermentada pintar con huevo y hornear a 160º entre 8' y 20' dependiendo de la pieza.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
         <nav class="navbar navbar-expand-lg bg-custom">
             <div class="row">
                 <div class="col social">
