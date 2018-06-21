@@ -1,4 +1,4 @@
-# Coolinary Master Classes App [![bitHound Score][bithound-img]][bithound-url]
+# Coolinary Ateliers App [![bitHound Score][bithound-img]][bithound-url]
 
 A PhoneGap APP
 

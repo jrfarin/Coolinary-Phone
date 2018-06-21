@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="es.coolinary.webflix" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="es.coolinary.jrfarin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
@@ -9,9 +9,9 @@
         <param name="browser-package" value="Device" />
     </feature>
 
-    <name>Coolinary MC's</name>
+    <name>Coolinary Ateliers</name>
     <description>
-        Coolinary Market Master Classes &amp; 2017/2018 Worhshops and Recipes App.
+        Coolinary Ateliers By J.R. Farin.
     </description>
     <author email="coolinary@webflix.es" href="http://webflix.coolinary.com">
         JRFarin
@@ -40,6 +40,8 @@
     
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="3000" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
 
     <content src="index.html" />
     <access origin="http://maps.google.com" />
@@ -53,6 +55,7 @@
     <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
-    <plugin name="cordova-plugin-inappbrowser" spec="~1.3.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" />
 </widget>

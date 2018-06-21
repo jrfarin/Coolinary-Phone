@@ -1,0 +1,77 @@
+{
+  "_from": "mp-cordova-plugin-splashscreen",
+  "_id": "mp-cordova-plugin-splashscreen@3.0.0-dev",
+  "_inBundle": false,
+  "_integrity": "sha1-/vkP9TLp58ZuCeQ8O2cn7SYHt8I=",
+  "_location": "/mp-cordova-plugin-splashscreen",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mp-cordova-plugin-splashscreen",
+    "name": "mp-cordova-plugin-splashscreen",
+    "escapedName": "mp-cordova-plugin-splashscreen",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mp-cordova-plugin-splashscreen/-/mp-cordova-plugin-splashscreen-3.0.0-dev.tgz",
+  "_shasum": "fef90ff532e9e7c66e09e43c3b6727ed2607b7c2",
+  "_spec": "mp-cordova-plugin-splashscreen",
+  "_where": "C:\\Users\\PepFerin\\Documents\\GitHub\\Coolinary-Phone",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/Code1Tech/cordova-plugin-splashscreen/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "mp-cordova-plugin-splashscreen",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "blackberry10",
+      "wp8",
+      "windows8",
+      "windows",
+      "tizen"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Splashscreen Plugin",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=3.6.0"
+    }
+  ],
+  "homepage": "https://github.com/Code1Tech/cordova-plugin-splashscreen#readme",
+  "keywords": [
+    "cordova",
+    "splashscreen",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-blackberry10",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-tizen"
+  ],
+  "license": "Apache 2.0",
+  "name": "mp-cordova-plugin-splashscreen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code1Tech/cordova-plugin-splashscreen.git"
+  },
+  "version": "3.0.0-dev"
+}
